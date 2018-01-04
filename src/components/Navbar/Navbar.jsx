@@ -8,14 +8,14 @@ const Navbar = props =>
     <div className="container-fluid">
       <div className="navbar-header">
         <Link className="navbar-brand" to="/">
-          Pinder
+          Code Rider LLC
         </Link>
       </div>
       <ul className="nav navbar-nav">
         <li
           className={window.location.pathname === "/discover" ? "active" : ""}
         >
-          <Link className="navbar-brand" to="/discover">Discover</Link>
+          {/*<Link className="navbar-brand" to="/discover">Discover</Link>*/}
         </li>
       </ul>
     </div>
