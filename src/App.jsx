@@ -6,14 +6,16 @@ import Footer from './components/Footer';
 import Wrapper from './components/Wrapper';
 
 const App = () =>
-  (<Router>
-    <div>
-      <Navbar />
-      <Wrapper>
-        <Route exact path="/" component={About} />
-      </Wrapper>
-      <Footer />
-    </div>
-   </Router>);
+  (
+    <Router>
+      <div>
+        <Navbar />
+        <Wrapper>
+          <Route exact path="/" component={About} />
+        </Wrapper>
+        <Footer />
+      </div>
+    </Router>
+  );
 
 export default App;
