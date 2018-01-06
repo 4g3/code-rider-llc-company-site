@@ -1,12 +1,12 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import About from "./pages/About";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-import Wrapper from "./components/Wrapper";
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import About from './pages/About';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import Wrapper from './components/Wrapper';
 
 const App = () =>
-  <Router>
+  (<Router>
     <div>
       <Navbar />
       <Wrapper>
@@ -14,6 +14,6 @@ const App = () =>
       </Wrapper>
       <Footer />
     </div>
-  </Router>;
+   </Router>);
 
 export default App;

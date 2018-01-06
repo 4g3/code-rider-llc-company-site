@@ -1,18 +1,18 @@
-import React from "react";
-import Hero from "../components/Hero";
-import Container from "../components/Container";
-import Row from "../components/Row";
-import Col from "../components/Col";
+import React from 'react';
+import Hero from '../components/Hero';
+import Container from '../components/Container';
+import Row from '../components/Row';
+import Col from '../components/Col';
 
 const About = () =>
-  <div>
+  (<div>
     <Hero>
       <h1>Code Rider LLC</h1>
       <h2>Riding the wave !</h2>
     </Hero>
     <Container style={{ marginTop: 30 }}>
       <Row>
-        <Col size="md-12" style={{ "text-align": "center", 'margin': '10px' }}>
+        <Col size="md-12" style={{ 'text-align': 'center', margin: '10px' }}>
           <h1>Ride the wave!</h1>
         </Col>
       </Row>
@@ -29,6 +29,6 @@ const About = () =>
         </Col>
       </Row>
     </Container>
-  </div>;
+   </div>);
 
 export default About;
