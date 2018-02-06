@@ -5,10 +5,8 @@ import './Hero.css';
 const Hero = props =>
   (<div
     className="hero text-center"
-    // style={{ backgroundImage: `url(${logo})`}}
-    // style={{ backgroundImage: `url(${props.backgroundImage})` }}
-  >
+   >
     {props.children}
-   </div>);
-
+   </div>
+  );
 export default Hero;
