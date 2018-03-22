@@ -4,24 +4,19 @@ import './Navbar.css';
 
 const Navbar = props =>
   (
-    <nav className="navbar navbar-default">
-      <div className="container-fluid">
-        <div className="navbar-header">
-          <Link className="navbar-brand" to="/">
-            Placeholder
-          </Link>
+    <nav className="navbar is-fixed-top" aria-label="main navigation">
+      <div className="navbar-brand">
+        <Link className="navbar-item" to="/">
+          Code Rider LLC
+        </Link>
+      </div>
+      <div className="navbar-menu">
+        <div className="navbar-end">
+          {<Link className={window.location.pathname === '/' ? 'is-active navbar-item' : 'navbar-item'} to="/">Home</Link>}
+          {<Link className={window.location.pathname === '/about' ? 'is-active navbar-item' : 'navbar-item'} to="/about">About</Link>}
+          {<Link className={window.location.pathname === '/projects' ? 'is-active navbar-item' : 'navbar-item'} to="/projects">Projects</Link>}
+          {<Link className={window.location.pathname === '/skills' ? 'is-active navbar-item' : 'navbar-item'} to="/skills">Skills</Link>}
         </div>
-        <ul className="nav navbar-nav">
-          <li className={window.location.pathname === '/about' ? 'active' : ''}>
-            {<Link className="navbar-brand" to="/about">About</Link>}
-          </li>
-          <li className={window.location.pathname === '/projects' ? 'active' : ''}>
-            {<Link className="navbar-brand" to="/projects">Projects</Link>}
-          </li>
-          <li className={window.location.pathname === '/skills' ? 'active' : ''}>
-            {<Link className="navbar-brand" to="/skills">Skills</Link>}
-          </li>
-        </ul>
       </div>
     </nav>
   );
