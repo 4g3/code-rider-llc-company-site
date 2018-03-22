@@ -8,8 +8,9 @@ const About = () =>
   (
     <div>
       <Hero>
-        <h1>Code Rider LLC</h1>
-        <h2>Riding the wave !</h2>
+        {/* <h1>Code Rider LLC</h1>
+        <h2>Riding the wave !</h2> */}
+        <img src='/images/cover_photo.png' />
       </Hero>
       <Container style={{ marginTop: 30 }}>
         <Row>
