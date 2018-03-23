@@ -1,7 +1,5 @@
 import React from 'react';
 import './Hero.css';
-// import logo from "../../assets/pug.png"
-
 const Hero = props =>
   (
     <section className="hero is-info is-small">

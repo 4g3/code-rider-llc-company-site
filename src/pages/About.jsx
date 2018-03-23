@@ -1,23 +1,20 @@
 import React from 'react';
 import Hero from '../components/Hero';
-import Container from '../components/Container';
-import Row from '../components/Row';
-import Col from '../components/Col';
 
 const About = () =>
   (
     <div>
       <Hero>
-        <img src='/images/cover_photo.png' />
+        <img src="/images/cover_photo.png" alt="Cover" />
       </Hero>
-      <Container style={{ marginTop: 30 }}>
-        <Row>
-          <Col size="md-12" style={{ 'text-align': 'center', margin: '10px' }}>
+      <div className="container" style={{ marginTop: 30 }}>
+        <div className="columns">
+          <div className="column">
             <h1>Ride the wave!</h1>
-          </Col>
-        </Row>
-        <Row>
-          <Col size="md-12">
+          </div>
+        </div>
+        <div className="columns">
+          <div className="column">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
               aliquet diam tortor, id consequat mauris ullamcorper eu. Orci varius
@@ -26,9 +23,9 @@ const About = () =>
               et metus. Ut feugiat tellus nec metus commodo, sed suscipit nisi
               gravida.
             </p>
-          </Col>
-        </Row>
-      </Container>
+          </div>
+        </div>
+      </div>
     </div>
   );
 
