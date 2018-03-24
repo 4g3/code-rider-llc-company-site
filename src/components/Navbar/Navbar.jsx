@@ -10,14 +10,13 @@ const Navbar = props =>
           Code Rider LLC
         </Link>
       </div>
-      <div className="navbar-menu is-active">
+      <div className="navbar-menu">
         <div className="navbar-end">
           {<Link className={window.location.pathname === '/about' ? 'is-active navbar-item' : 'navbar-item'} to="/about">About</Link>}
           {<Link className={window.location.pathname === '/projects' ? 'is-active navbar-item' : 'navbar-item'} to="/projects">Projects</Link>}
           {<Link className={window.location.pathname === '/skills' ? 'is-active navbar-item' : 'navbar-item'} to="/skills">Skills</Link>}
           {<Link className={window.location.pathname === '/contact' ? 'is-active navbar-item' : 'navbar-item'} to="/contact">Contact</Link>}
-          {<Link className={window.location.pathname === '/support' ? 'is-active navbar-item' : 'navbar-item'} to="/support">Support</Link>}
-          <a className={window.location.pathname === '/blog' ? 'is-active navbar-item' : 'navbar-item'} href="https://coderider.co/blog">Blog</a>
+          <a className="navbar-item" href="https://code-rider-store.herokuapp.com">Store</a>
         </div>
       </div>
     </nav>
