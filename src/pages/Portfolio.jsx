@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import PageSection from '../components/PageSection';
 class Portfolio extends Component {
   constructor(props) {
     super(props);
@@ -28,9 +28,9 @@ class Portfolio extends Component {
       </div>
     ));
     return (
-      <div className="container is-fluid" style={{ marginTop: 60 }}>
+      <PageSection>
         {projectsList}
-      </div>
+      </PageSection>
     );
   }
 }
