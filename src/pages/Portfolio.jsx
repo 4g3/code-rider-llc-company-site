@@ -5,9 +5,18 @@ class Portfolio extends Component {
     super(props);
     this.state = {
       projectData: [
-          {
+        {
           name: 'USDA',
-          },
+        },
+        {
+          name: 'GSA',
+        },
+        {
+          name: 'SNIMBUS',
+        },
+        {
+          name: 'Capital One',
+        },
       ],
     };
   }
