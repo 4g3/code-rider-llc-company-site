@@ -1,10 +1,11 @@
 import React from 'react';
+import ContactForm from '../components/ContactForm';
 
 const Contact = () =>
 (
   <div className="container is-fluid" style={{ marginTop: 60 }}>
     <div className="notification">
-          Hello <strong>Contact</strong>
+      <ContactForm />
     </div>
   </div>
 );
