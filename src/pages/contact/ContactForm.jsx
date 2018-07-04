@@ -13,15 +13,11 @@ const ContactForm = () =>
       <div className="field">
         <label className="label" htmlFor="email">Email</label>
         <div className="control has-icons-left has-icons-right">
-         <input className="input is-danger" type="email" placeholder="Email input" value="hello@" />
+          <input className="input" type="email" placeholder="Email input" />
           <span className="icon is-small is-left">
-            <i className="fas fa-envelope" />
-          </span>
-          <span className="icon is-small is-right">
-            <i className="fas fa-exclamation-triangle" />
+            <i className="fa fa-envelope-o" />
           </span>
         </div>
-        <p className="help is-danger">This email is invalid</p>
       </div>
 
       <div className="field">
@@ -37,36 +33,13 @@ const ContactForm = () =>
       </div>
 
       <div className="field">
-        <label className="label" htmlFor="msg">
+        <label className="label" htmlFor="message">
             Message
         </label>
         <div className="control">
           <textarea className="textarea" placeholder="Textarea" />
         </div>
       </div>
-
-      <div className="field">
-        <div className="control">
-          <label className="checkbox" htmlFor="checkbox">
-            <input type="checkbox" />
-                        I agree to the <a href="www.google.com">terms and conditions</a>
-          </label>
-        </div>
-      </div>
-
-      <div className="field">
-        <div className="control">
-          <label className="radio" htmlFor="radio">
-            <input type="radio" name="question" />
-                        Yes
-          </label>
-          <label className="radio" htmlFor="question">
-            <input type="radio" name="question" />
-                        No
-          </label>
-        </div>
-      </div>
-
       <div className="field is-grouped">
         <div className="control">
           <button className="button is-link">Submit</button>
