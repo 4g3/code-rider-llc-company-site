@@ -1,9 +1,9 @@
 import React from 'react';
-import Layout from './app/Layout';
+import Main from './pages/Main';
 
 const App = () =>
   (
-    <Layout />
+    <Main />
   );
 
 export default App;

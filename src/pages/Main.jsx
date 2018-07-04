@@ -1,14 +1,14 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import About from '../pages/About';
-import Contact from '../pages/Contact';
-import Skills from '../pages/Skills';
-import Portfolio from '../pages/Portfolio';
-import Header from './layout/Header';
-import Footer from './layout/Footer';
-import Wrapper from '../components/Wrapper';
+import About from './About';
+import Contact from './Contact';
+import Skills from './Skills';
+import Portfolio from './Portfolio';
+import Header from './main/Header';
+import Footer from './main/Footer';
+import Wrapper from './main/Wrapper';
 
-const Layout = () =>
+const Main = () =>
   (
     <Router>
       <div>
@@ -25,4 +25,4 @@ const Layout = () =>
     </Router>
   );
 
-export default Layout;
+export default Main;
