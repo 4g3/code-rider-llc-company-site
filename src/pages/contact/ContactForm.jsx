@@ -6,14 +6,14 @@ const ContactForm = () =>
       <div className="field">
         <label className="label" htmlFor="name">Name</label>
         <div className="control">
-          <input className="input" type="text" placeholder="Text input" />
+          <input className="input" type="text" placeholder="Your Name" />
         </div>
       </div>
 
       <div className="field">
         <label className="label" htmlFor="email">Email</label>
         <div className="control has-icons-left has-icons-right">
-          <input className="input" type="email" placeholder="Email input" />
+          <input className="input" type="email" placeholder="Your Email Address" />
           <span className="icon is-small is-left">
             <i className="fa fa-envelope-o" />
           </span>
@@ -25,8 +25,9 @@ const ContactForm = () =>
         <div className="control">
           <div className="select">
             <select>
-              <option>Select dropdown</option>
-              <option>With options</option>
+              <option>Let's Chat</option>
+              <option>Sales Inquiry</option>
+              <option>Support Request</option>
             </select>
           </div>
         </div>
@@ -37,7 +38,7 @@ const ContactForm = () =>
             Message
         </label>
         <div className="control">
-          <textarea className="textarea" placeholder="Textarea" />
+          <textarea className="textarea" placeholder="Description of the request" />
         </div>
       </div>
       <div className="field is-grouped">

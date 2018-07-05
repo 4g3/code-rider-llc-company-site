@@ -1,23 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-// nav.navbar.navbar-default {
-//   margin-bottom: 0;
-// }
-
-// .navbar-brand{
-//   color: #C93131;
-// }
-
-// ul{
-//   text-align: center;
-// }
-
-// li {
-//   display: inline;
-// }
-
-const Header = props =>
+const Header = () =>
   (
     <nav className="navbar is-fixed-top" aria-label="main navigation">
       <div className="navbar-brand">
