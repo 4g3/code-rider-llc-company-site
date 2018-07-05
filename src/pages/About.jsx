@@ -1,5 +1,6 @@
 import React from 'react';
 import Hero from './about/Hero';
+import { Link } from 'react-router-dom';
 
 const About = () =>
   (
@@ -21,7 +22,7 @@ const About = () =>
               We have worked with clients ranging from small Non-Profits to Goverment Entities and Fortune 100 clients.
               Our team mainly specializes in Javascript (Node.js and React), Python, Ruby, Java and Apex development but also has experience developing native applications in iOS and Android.
               We would love to help you to implement your idea, drive digital transformation, manage your systems or solve your technology problems. 
-              Please reach out on the <a href='/Contact'>Contact</a> page to start a discussion.
+              Please reach out on the {<Link to="/contact">Contact</Link>} page to start a discussion.
             </p>
           </div>
         </div>

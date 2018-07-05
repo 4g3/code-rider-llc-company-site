@@ -6,6 +6,6 @@ const wrap = {
   marginTop: '50px',
 };
 
-const Wrapper = props => <main style={wrap} {...props} />;
+const Content = props => <main style={wrap} {...props} />;
 
-export default Wrapper;
+export default Content;

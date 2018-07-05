@@ -5,19 +5,19 @@ import Contact from './Contact';
 import Portfolio from './Portfolio';
 import Header from './main/Header';
 import Footer from './main/Footer';
-import Wrapper from './main/Wrapper';
+import Content from './main/Content';
 
 const Main = () =>
   (
     <Router>
       <div>
         <Header />
-        <Wrapper>
+        <Content>
           <Route exact path="/" component={About} />
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
           <Route path="/projects" component={Portfolio} />
-        </Wrapper>
+        </Content>
         <Footer />
       </div>
     </Router>
