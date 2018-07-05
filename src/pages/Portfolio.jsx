@@ -68,7 +68,7 @@ class Portfolio extends Component {
                 }
                 {project.liveLink !== '' ?
                   <p className="card-footer-item">
-                    <span><a href={project.liveLink} target="_blank">View it live</a> </span>
+                    <span><a href={project.liveLink} target="_blank">Try it</a> </span>
                   </p>
                   : ''
                 }
