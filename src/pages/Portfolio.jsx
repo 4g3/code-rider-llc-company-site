@@ -35,6 +35,13 @@ class Portfolio extends Component {
           learnLink: 'https://cloudcustodian.io/docs/index.html',
         },
         {
+          name: 'Capital One Salesforce Center of Excellence (CoE)',
+          description: 'Contributed to development and security standards across the enterprise',
+          githubLink: '',
+          liveLink: '',
+          learnLink: '',
+        },
+        {
           name: 'Sandbox Commander',
           description: 'Enterprise Grade Sandbox Management Application coming to the Salesforce AppExchange soon',
           githubLink: '',
