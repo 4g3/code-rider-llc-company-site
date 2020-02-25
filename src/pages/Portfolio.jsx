@@ -28,11 +28,11 @@ class Portfolio extends Component {
           learnLink: 'https://www.youtube.com/watch?v=cQyDMejvojY&feature=youtu.be',
         },
         {
-          name: 'Hews',
-          description: 'Hacker News reader built in React Native and hosted on App Store and Play Store',
-          githubLink: 'https://github.com/code-rider-llc/hews',
-          liveLink: '',
-          learnLink: '',
+          name: 'Cloud Custodian',
+          description: 'Contribute to OSS development of this rules engine for enforcement of cloud controls',
+          githubLink: 'https://github.com/cloud-custodian/cloud-custodian',
+          liveLink: 'https://cloudcustodian.io/',
+          learnLink: 'https://cloudcustodian.io/docs/index.html',
         },
         {
           name: 'Sandbox Commander',
