@@ -10,7 +10,7 @@ const footer = {
 const Footer = () =>
   (
     <footer style={footer}>
-      <p>Made with <i className="fa fa-heart" aria-hidden="true" style={{ color: 'red' }} /> by <a href="/">Code Rider</a></p>
+      <p>Made with <i className="fa fa-heart" aria-hidden="true" style={{ color: 'red' }} /> by <a href="/">in the 4g3</a></p>
     </footer>
   );
 

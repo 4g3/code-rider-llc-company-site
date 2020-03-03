@@ -28,7 +28,7 @@ class Header extends React.Component {
       <nav className="navbar is-fixed-top" aria-label="main navigation">
         <div className="navbar-brand">
           <Link className="navbar-item" to="/">
-            Code Rider LLC
+            4g3 LLC
           </Link>
           <div className={this.state.isToggleOn ? "navbar-burger burger is-active" : "navbar-burger burger"} data-target="navMenu" onClick={this.handleClick} role="button">
             <span />
